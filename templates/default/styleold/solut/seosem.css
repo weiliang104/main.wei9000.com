@@ -1,0 +1,26 @@
+/* CSS Document */
+.main .banner{ height:418px;}
+dl{ margin-bottom:20px;}
+dl dt{color:#3333cc; font-size:16px; margin-bottom:15px;}
+dl dd {font-size:12px; margin-bottom:15px; line-height:30px;}
+dl dd .blue_tle{color:#000093; text-indent:0;}
+/*seosem_intro*/
+.main .seosem_intro{width:1050px; height:350px; margin:auto; border-bottom:2px dashed #072e46;}
+.main .seosem_intro .seosem_tle{line-height:63px;margin:25px 50px 5px;color:#cc0066;background:url(../../images/seosem_05.jpg) no-repeat;text-indent:70px;}
+.main .seosem_intro .seosem_ctn{font-size:12px;line-height:25px; width:860px; margin:auto; }
+/*sem_step*/
+.main .sem_solut{width:950px; margin:30px auto; height:800px; position:relative; background:url(../../images/seosem_09.jpg) no-repeat;}
+.main .sem_solut .sem_ctn,.main .seo_solut .seo_ctn{ position:absolute; top:21px; left:75px;}
+.main .sem_solut .sem_ctn dl dd ul{float:left; margin-right:70px; line-height:20px;}
+.main .sem_solut .sem_ctn dl dd ul div{ font-weight:700; margin-bottom:10px;}
+.main .sem_solut .sem_ctn dl dd ul li{ text-indent:1em;}
+.main .sem_solut .rgimg{position:absolute; top:228px; right:20px;}
+/*seo_solut*/
+.main .seo_solut{width:950px; margin:30px auto; height:750px; position:relative; background:url(../../images/seosem_09.jpg) no-repeat;}
+.main .seo_solut .seo_ctn dl ul{margin-top:10px; height:200px;}
+.main .seo_solut .seo_ctn dl ul li{float:left; text-indent:2em; line-height:30px; width:33%; font-size:12px; background:url(../../images/seosem_07.png) no-repeat center left;color:#000;}
+.main .seo_solut .seo_ctn .seoimg{text-align:center;}
+.main .seo_solut .rgimg{position:absolute; top:420px; right:80px;}
+/*seo_intro*/
+.main .seo_intro{width:800px; margin:30px auto; height:auto; position:relative;}
+.main .seo_intro .seo_ctn .seoimg{text-align:center; margin:40px 0;}

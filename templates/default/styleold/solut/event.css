@@ -1,0 +1,14 @@
+/* CSS Document */
+.main .banner{ height:413px;}
+.main .event_intro,.event_solut{width:950px; margin:auto; padding-bottom:10px;}
+.event_tle{width:390px; font-size:30px; height:45px; line-height:45px; margin:25px 0; background:url(../../images/dbt.jpg) no-repeat; text-indent:2em; }
+.event_ctn{width:860px; margin:auto;}
+/*event_intro*/
+.main .event_intro .event_ctn dl{ margin-bottom:22px;}
+.main .event_intro .event_ctn dl dt{color:#c8023d; font-size:16px; margin-bottom:10px;}
+.main .event_intro .event_ctn dl dd {font-size:12px; margin-bottom:15px; line-height:20px; text-indent:2em;}
+.main .event_intro .event_ctn dl dd .blue_tle{color:#000093; text-indent:0;}
+/*event_solut*/
+.main .event_solut{ padding-bottom:30px;}
+.main .event_solut ul li{ margin-bottom:15px; font-size:12px; line-height:20px;} 
+.main .event_solut ul li span{color:#000093; } 

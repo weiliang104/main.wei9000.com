@@ -1,0 +1,18 @@
+/* CSS Document */
+.main .banner{ height:445px;}
+.ebo_tle{font-size:25px; margin-bottom:20px;}
+/*ebo_adv*/
+.main .ebo_adv,.main .ebo_imgbox,.ebo_solut{text-align:center;margin:30px 0;}
+.main .ebo_adv .ebo_tle{color:#d43231; font-size:25px; margin-bottom:20px;}
+/*ebo_imgbox*/
+.main .ebo_imgbox{margin-left:16px;}
+/*ebo_serv*/
+.main .ebo_serv{ position:relative;}
+.main .ebo_serv .ebo_tle{ position:absolute; top:30px; left:325px; height:auto;}
+.main .ebo_serv div{ height:1008px;}
+/*ebo_solut*/
+.main .ebo_solut{ height:auto;}
+.main .ebo_solut .ebo_ctn{width:850px; height:480px; margin:auto;}
+.main .ebo_solut .ebo_ctn dl{width:214px; float:left; margin-left:50px;}
+.main .ebo_solut .ebo_ctn dl dd{text-align:left;font-size:14px; line-height:20px; margin-bottom:10px; }
+.main .ebo_solut .ebo_ctn dl dd .ctn_smtle{color:#d43231;margin-bottom:2px;}

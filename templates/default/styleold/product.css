@@ -1,0 +1,56 @@
+/* CSS Document */
+/*maprtg*/
+.main .maprtg{ width:100%; margin:auto; height:430px; position:relative; overflow:hidden;border-bottom:2px dashed #072e46; }
+.main .maprtg .mp_tle{width:390px; font-size:30px; margin-top:38px;  background:url(../images/web_03.png) no-repeat 370px 10px; position:absolute; left:40px}
+.main .maprtg .mp_tle .mp_smct{ font-size:14px; width:260px; margin:10px 0 0 10px;}
+.main .maprtg .mp_home{width:365px; text-indent:2em; font-size:14px; position:absolute; bottom:130px; left:40px; }
+.main .maprtg .mp_ktimg{ position:absolute; right:0px; top:50px;}
+/*emtwrk*/
+.main .emtwrk{ width:100%; margin:auto; height:430px; position:relative; overflow:hidden; }
+.main .emtwrk .ew_tle{width:390px; font-size:30px; margin-top:38px;  background:url(../images/web_03.png) no-repeat 210px 10px; text-align:right; position:absolute; right:40px}
+.main .emtwrk .ew_tle .ew_smct{ font-size:14px; width:100%; margin-top:10px; text-align:right;}
+.main .emtwrk .ew_info{width:365px; text-indent:2em; font-size:14px; position:absolute; bottom:130px; right:40px; }
+.main .emtwrk ul{width:365px; text-indent:2em; font-size:14px; position:absolute; bottom:60px; right:40px; }
+.main .emtwrk ul li{ line-height:25px; margin-bottom:20px;}
+.main .emtwrk .ew_ktimg{ position:absolute; left:50px; top:50px;}
+/*shopml*/
+.main .shopml{ width:100%; margin:auto; height:400px; position:relative; overflow:hidden;border-bottom:2px dashed #072e46;  }
+.main .shopml .sp_tle{width:390px; font-size:30px; margin-top:48px;  background:url(../images/web_03.png) no-repeat 170px 10px;position:absolute; left:40px}
+.main .shopml ul{width:410px; text-indent:2em; font-size:14px; position:absolute; top:110px; left:40px; }
+.main .shopml ul li{ line-height:25px; margin-bottom:20px; }
+.main .shopml .sp_ktimg{ position:absolute; right:80px; top:50px;}
+/*citsys*/
+.main .citsys{ width:100%; margin:auto; height:430px; position:relative; overflow:hidden; }
+.main .citsys .cs_tle{width:390px; font-size:30px; margin-top:38px;  background:url(../images/web_03.png) no-repeat 120px 10px; text-align:right; position:absolute; right:40px}
+.main .citsys .cs_ctn{width:365px; text-indent:2em; font-size:14px; position:absolute; top:90px; right:40px; line-height:20px; }
+.main .citsys .cs_ktimg{ position:absolute; left:50px; top:80px;}
+/*print*/
+.main .print{ width:100%; margin:auto; height:550px; position:relative; overflow:hidden;border-bottom:2px dashed #072e46;  }
+.main .print .prt_tle{width:390px;font-size:30px;margin:auto;padding:38px 0 20px 0; background:url(../images/web_03.png) no-repeat 280px 48px;text-align:center;}
+.main .print ul{width:520px; text-indent:2em; font-size:14px; margin:auto; line-height:20px;}
+.main .print .prt_ktimg{ position:absolute; left:10%; bottom:20px;}
+/*wifi*/
+.main .mwifi{ width:100%; margin:auto; height:550px; position:relative; overflow:hidden;}
+.main .mwifi .wf_tle{width:160px; font-size:30px; margin:auto; padding:38px 0 20px 0;  background:url(../images/web_03.png) no-repeat 140px 48px;}
+.main .mwifi .wf_ctn{width:330px;font-size:14px; margin:auto; line-height:20px;}
+.main .mwifi ul{width:950px; margin:auto; height:auto;}
+.main .mwifi ul .wf_flimg{ position:absolute; bottom:150px; left:130px;}
+.main .mwifi ul .wf_flimg .wf_top{position:absolute; bottom:130px; left:250px;}
+.main .mwifi ul .wf_frimg{ position:absolute; bottom:50px; right:80px;}
+/*artifacts*/
+.main .artifacts{ width:100%; margin:auto; height:400px; position:relative; overflow:hidden;}
+.main .artifacts .arf_tle{width:230px; font-size:30px; margin:auto; padding:38px 0 20px 0; text-align:center;  background:url(../images/web_03.png) no-repeat 210px 48px;}
+.main .artifacts ul{ width:800px; margin:auto;}
+.main .artifacts ul li{width:155px; height:221px; float:left; margin-left:3px; position:relative;}
+.main .artifacts ul .abgone{background:url(../images/yscp_31.jpg); }
+.main .artifacts ul .abgtwo{background:url(../images/yscp_33.jpg); }
+.main .artifacts ul .abgthr{background:url(../images/yscp_35.jpg); }
+.main .artifacts ul .abgfou{background:url(../images/yscp_37.jpg); }
+.main .artifacts ul .abgfiv{background:url(../images/yscp_38.jpg); }
+.main .artifacts ul li .arf_ctbox{width:100%; height:100%; color:#fff;}
+.main .artifacts ul li .arf_ctbox .acb_tle{width:100%; height:40px; position:absolute; font-size:16px;top:60px; text-indent:20px;}
+.main .artifacts ul li .arf_ctbox .acb_sct{width:110px; height:100px; position:absolute; font-size:12px;bottom:10px; left:20px;}
+.main .artifacts ul li img{ background-repeat:no-repeat; position:absolute; top:225px; left:-2px;}
+.main .artifacts ul .arf_xia {margin-top:30px;}
+.main .artifacts ul .arf_xia .arf_ctbox .acb_tle{top:80px;} 
+.main .artifacts ul .arf_xia .arf_ctbox .acb_sct{top:130px;} 

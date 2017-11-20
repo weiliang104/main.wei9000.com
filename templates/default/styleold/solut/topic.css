@@ -1,0 +1,21 @@
+/* CSS Document */
+.main .banner{ height:418px;}
+.main .topic_intro,.main .topic_solut,.main .topic_step{width:950px; margin:auto; position:relative; padding-bottom:10px;}
+.topic_tle{width:390px; font-size:30px; height:45px; line-height:45px; margin:25px 0; background:url(../../images/dbt.jpg) no-repeat; text-indent:2em; }
+.topic_ctn{width:860px; margin:auto;}
+/*topic_info*/
+.main .topic_intro{width:1050px; margin:auto;}
+.main .topic_intro .topic_tle{width:950px; margin:25px auto;}
+.main .topic_intro .topic_ctn{font-size:14px; text-indent:2em;}
+/*topic_step*/
+.main .topic_step .topic_ctn{width:322px; margin-left:40px;}
+.main .topic_step .topic_ctn dl{ margin-bottom:22px;}
+.main .topic_step .topic_ctn dl dt{color:#3333cc; font-size:16px; margin-bottom:10px;}
+.main .topic_step .topic_ctn dl dd {font-size:12px; margin-bottom:15px; line-height:20px; text-indent:2em;}
+.main .topic_step .topic_ctn dl dd .blue_tle{color:#000093; text-indent:0;}
+.main .topic_step .rgimg{position:absolute; top:100px; right:0px;}
+/*topic_solut*/
+.main .topic_solut{margin-bottom:20px;}
+.main .topic_solut ul li{ margin-bottom:15px; font-size:12px; line-height:20px;} 
+.main .topic_solut ul li div{text-indent:2em;} 
+.main .topic_solut ul li span{color:#000093; font-size:16px; } 

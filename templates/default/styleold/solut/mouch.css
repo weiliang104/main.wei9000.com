@@ -1,0 +1,26 @@
+/* CSS Document */
+.main .banner{ height:418px;}
+.main .mouch_intro,.mouch_solut{width:950px; margin:auto; padding-bottom:20px;}
+.mouch_tle{width:390px; font-size:30px; height:45px; line-height:45px; margin:25px 0; background:url(../../images/dbt.jpg) no-repeat; text-indent:2em; }
+.mouch_ctn{width:860px; margin:auto;}
+/*mouch_intro*/
+.main .mouch_intro .mouch_ctn dl{ margin-bottom:22px;}
+.main .mouch_intro .mouch_ctn dl dt{color:#c8023d; font-size:16px; margin-bottom:10px;}
+.main .mouch_intro .mouch_ctn dl dd {font-size:12px; margin-bottom:15px; line-height:20px; text-indent:2em;}
+.main .mouch_intro .mouch_ctn dl dd .blue_tle{color:#000093; text-indent:0;}
+/*mouch_info*/
+.main .mouch_info{width:1050px; margin:auto; border-bottom:2px dashed #072e46;}
+.main .mouch_info .mouch_tle{width:950px; margin:25px auto;}
+.main .mouch_info .mouch_ctn div{margin:20px 0; font-size:14px;}
+.main .mouch_info .mouch_ctn .mouch_mid{width:100%;height:220px; position:relative;}
+.main .mouch_info .mouch_ctn .mouch_mid ul{ position:absolute; top:50px; left:160px; color:#0a388f; font-size:14px;}
+.main .mouch_info .mouch_ctn .mouch_mid ul li{margin-bottom:18px;}
+.main .mouch_info .mouch_ctn .mouch_mid .rgimgbox{width:348px; height:200px; position:absolute; top:0px; right:80px; background:url(../../images/mouch_05.jpg) no-repeat top center;}
+.main .mouch_info .mouch_ctn .mouch_mid .rgimgbox div{ position:absolute; font-size:12px;color:#b8cc6e;}
+.main .mouch_info .mouch_ctn .mouch_mid .rgimgbox .lf{top:25px; left:20px;}
+.main .mouch_info .mouch_ctn .mouch_mid .rgimgbox .bm{bottom:0px; left:120px;}
+.main .mouch_info .mouch_ctn .mouch_mid .rgimgbox .rg{top:25px; right:10px;}
+/*mouch_solut*/
+.main .mouch_solut ul li{ margin-bottom:15px; font-size:12px; line-height:20px;} 
+.main .mouch_solut ul li div{text-indent:2em;} 
+.main .mouch_solut ul li span{color:#000093; } 

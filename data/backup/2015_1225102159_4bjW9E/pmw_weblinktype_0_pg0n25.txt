@@ -1,0 +1,4 @@
+INSERT INTO `pmw_weblinktype` VALUES('1','1','0','0,','默认分类','1','true');
+INSERT INTO `pmw_weblinktype` VALUES('2','1','0','0,','seo','2','true');
+INSERT INTO `pmw_weblinktype` VALUES('3','1','0','0,','seo2','3','true');
+INSERT INTO `pmw_weblinktype` VALUES('4','1','0','0,','seodiy','4','true');

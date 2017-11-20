@@ -1,0 +1,37 @@
+/* CSS Document */
+.main .banner{ height:418px;}
+/*sltmktop*/
+.main .sltmktop{ width:1050px; margin:auto; height:500px; overflow:hidden; border-bottom:2px dashed #072e46; position:relative;}
+.main .sltmktop .sltmk_tle{width:390px; font-size:30px; margin-top:25px;  background:url(../../images/web_03.png) no-repeat 60px 10px; text-indent:3em;}
+.main .sltmktop .sltmk_ctn{position:absolute; top:90px; left:180px; z-index:998; width:773px; height:390px;}
+.main .sltmktop .sltmk_ctn .ctntop{ width:720px; height:100px; position:absolute; top:18px; left:18px;}
+.main .sltmktop .sltmk_ctn .ctntop dl{width:110px; float:left; margin-right:33px;}
+.main .sltmktop .sltmk_ctn .ctntop dl dt{font-size:24px; text-align:center; margin-bottom:5px;}
+.main .sltmktop .sltmk_ctn .ctntop dl dd{font-size:18px;}
+.main .sltmktop .sltmk_ctn .ctnbtn{position:absolute; bottom:136px; left:340px; font-size:20px; color:#fff;}
+.main .sltmktop .sltmk_ctn .ctnbom{position:absolute; bottom:8px; left:110px; color:#fff; font-size:40px;}
+.main .sltmktop .sltmk_ktimg{ position:absolute; top:90px; left:180px }
+.main .sltmkbom{width:710px; height:410px; margin:30px auto;}
+/*mcb_role*/
+.main .mcb_role .role_worth{border-bottom:2px dashed #072e46; position:relative; height:400px; overflow:hidden}
+.main .mcb_role .role_worth .rwolf{ position:absolute; top:20px; left:100px;}
+.main .mcb_role .role_worth .rworg{position:absolute; top:80px; right:100px;}
+.main .mcb_role .role_way{position:relative; height:400px;}
+.main .mcb_role .role_way .rwalf{ position:absolute; top:40px; left:100px;}
+.main .mcb_role .role_way .rwarg{position:absolute; top:20px; right:100px;}
+/*mcb_step*/
+.main .mcb_step {height:775px;}
+.main .mcb_step .step_tle{ font-size:52px; text-align:center; margin:30px 0; color:#757575;}
+.main .mcb_step .stop_info{ font-size:14px; position:relative; }
+.main .mcb_step .stop_info ul{position:absolute; text-align:center;}
+.main .mcb_step .stop_info .ct1{position:absolute; left:480px; top:-5px;}
+.main .mcb_step .stop_info .ct2{position:absolute; left:200px; top:170px;}
+.main .mcb_step .stop_info .ct3{position:absolute; left:200px; top:375px;}
+.main .mcb_step .stop_info .ct4{position:absolute; left:450px; top:530px;}
+.main .mcb_step .stop_info .ct5{position:absolute; right:200px; top:345px;}
+.main .mcb_step .stop_info .ct6{position:absolute; right:180px; top:190px;}
+.main .mcb_step .step_ktimg{text-align:center; margin:100px 0;}
+/*mcb_func*/
+.main .mcb_func {width:1050px; margin:auto; height:350px; overflow:hidden; position:relative;}
+.main .mcb_func .func_tle{width:390px; font-size:30px; margin-top:25px; background:url(../../images/web_03.png) no-repeat 60px 10px; text-indent:3em;}
+.main .mcb_func .func_ktimg{text-align:right; position:absolute; top:10px; right:80px;}

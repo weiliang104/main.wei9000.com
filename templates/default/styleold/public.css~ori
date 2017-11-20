@@ -1,0 +1,89 @@
+/* CSS Document */
+/*
+@font-face {   
+	font-family: "Microsoft YaHei";  
+	src: url("./fonts/MicrosoftYaHei.eot");
+}
+@font-face {   
+	font-family: "Microsoft YaHei";  
+	src: url(//:) format("no404"), url("./fonts/MicrosoftYaHei.woff") format("woff"), url("./fonts/MicrosoftYaHei.ttf") format("truetype"),  url("./fonts/MicrosoftYaHei.svg#webfontMFqI76bT") format("svg");  
+	font-weight: normal;  
+	font-style: normal;
+}*/
+*{margin:0; padding:0;font-family: "Microsoft Yahei",Tahoma,Arial,Helvetica,STHeiti,sans-serif,"宋体";}
+a{ text-decoration:none; color:#000;}
+li{list-style:none;}
+.fl{float:left;}
+.fr{float:right;}
+img{ border:none;}
+h1,h2,h3,h4{font-size:100%; font-weight:100; display:inline;}
+h1 > a{font-family: 黑体;}
+/*top*/
+.main{width:1050px; height:auto; margin:auto;}
+.main .top{ width:100%; height:69px; z-index:999; min-width:1050px;_position:absolute;
+_bottom:auto;_top:expression(eval(document.documentElement.scrollTop));}
+.main .top .logo{width:159px; height:100%;float:left; background:url(../images/web_01.png);}
+.logo a{width:100%; height:100%; display:block;}
+.main .top ul{float:left; width:891px; height:69px; background:#08334d; _height:29px;}
+.main .top ul li {width:130px; height:100%; text-align:center; float:left; line-height:29px;position:relative;}
+.main .top ul li.one{margin-left:50px;_margin-left:25px;}
+.main .top ul li a{display:block; font-size:21px; padding:20px; color:#FFF; font-family: "黑体";}
+.main .top ul li a.bg{background:url(../images/btn_03.png) no-repeat 1px 4px; color:#08334d;}
+.main .top ul li .nav_sub{width:104px; height:auto; z-index:11;position:absolute;left:13px; background:#fff;display:none;}
+.main .top ul li .nav_sub li{width:100%; height:30px; line-height:30px;}
+.main .top ul li .nav_sub li a{color:#08334d; font-size:13px; padding:0px;}
+.main .top ul li .nav_sub li a:hover{background:#08334d;color:#fff !important;}
+.bg2{color:#08334d !important; background:url(../images/btn_04.png) no-repeat 0 1px !important;}
+.bg1{color:#08334d !important; background:url(../images/btn_03.png) no-repeat 1px 4px;}
+/*banner*/
+.main .banner{width:100%; height:422px;  border-bottom:5px solid #072e46;position:relative; _padding-top:69px; z-index:10;}
+.main .banner .lht{position:absolute; }
+.main .banner .lht li{position:absolute; left:0px; top:0px; display:none;} 
+.main .banner .lht li.show{display:block;}
+.main .banner .pagenum {position:absolute; bottom:100px; left:143px;}
+.main .banner .pagenum li{width:14px; height:13px; background:url(../images/web_04.png) no-repeat; float:left; margin-right:6px;}
+.main .banner .pagenum li.red{ background:url(../images/web_03.png) no-repeat;}
+.main .banner .pagenum li a{ display:block; width:100%; height:100%;}
+/*frfg*/
+.main .frfg{ width:100%; height:38px;}
+.main .frfg .blue{ width:50%; height:100%; background:#08344f; }
+.main .frfg .lsblue{ width:20%; height:100%; background:#01243a; }
+.main .frfg .yellow{ width:50%; height:100%; background:#ffb727;}
+.main .frfg .lsyellow{ width:20%; height:100%; background:#f2a70e;}
+.main .frfg .red{ width:50%; height:100%; background:#e43635; }
+.main .frfg .lsred{ width:20%; height:100%; background:#d3201f; }
+/*fot*/
+.main .fot{ background:url(../images/fot_02.jpg); width:100%; margin:auto; height:362px;overflow:hidden; color:#fff; position:relative;}
+.main .fot .logo{width:auto; height:auto; position:absolute; top:24px; left:30px; font-size:21px;}
+.main .fot .logo a .ct{color:#fff;}
+.main .fot .sminfo{ position:absolute; top:185px; left:30px; font-size:14px; line-height:25px;}
+.main .fot .mopa{width:420px; height: 235px; font-size:13px; position:absolute; top:20px; left:400px;}
+.main .fot .mopa ul {float:left; width:180px; margin-right:30px;}
+.main .fot .mopa ul div{ margin-bottom:2px;}
+.main .fot .mopa ul li{ text-indent:10px; line-height:17px;}
+.main .fot ul li a{color:#fff;}
+.main .fot .qiyeinfo{width:180px; font-size:13px; position:absolute; right:45px; top:20px;}
+.main .fot .qiyeinfo li{line-height:18px;font-family: "黑体" !important; font-size:13px;}
+.main .fot .twowm{position:absolute; top:140px; right:28px; _right:10px; }
+.main .fot .twowm ul{width:200px; height:95px;}
+.main .fot .twowm .biaos{width:200px; text-align:center;}
+.main .fot .twowm ul li{ float:left; margin-right:20px;}
+.main .fot .banq{ font-size:13px; position:absolute; bottom:31px; text-align:center; line-height:58px; background:url(../images/fotbom_02.jpg); width:100%;}
+.main .fot .friend{ font-size:13px; position:absolute; bottom:10px; left:30px; line-height:31px; height:31px; background:url(../images/fotbom_02.jpg); width:95%; overflow:hidden;}
+.main .fot .friend a img{height:31px;}
+
+/*悬浮*/
+#jump{position:fixed;top:300px; right:5%;width:40px;_position:absolute; _margin-top:300px; z-index:9999;_top:expression(documentElement.scrollTop + "px");}
+#jump li{height:50px;}
+#top,#txqq,#sina,#weixin{display:block;width:40px;height:42px;cursor:pointer;}
+#top{background:url(../images/top.png) repeat scroll 0% 0% transparent;}
+#sina{background:url(../images/sina.png) repeat scroll 0% 0% transparent;}
+#weixin{background:url(../images/weixin.png) repeat scroll 0% 0% transparent;}
+#txqq{background:url(../images/txqq.png) repeat scroll 0% 0% transparent;}
+#top:hover{background:url(../images/toped.png) repeat scroll 0% 0% transparent;}
+#sina:hover{background:url(../images/sinad.png) repeat scroll 0% 0% transparent;}
+#weixin:hover{background:url(../images/weixind.png) repeat scroll 0% 0% transparent;}
+#txqq:hover{background:url(../images/txqqd.png) repeat scroll 0% 0% transparent;}
+#EWM{ position:absolute; right:40px; display:none;}
+#EWM img{ width:160px; height:160px;}
+

@@ -1,0 +1,9 @@
+
+/*悬浮*/
+li{list-style:none;}
+#jump{position:fixed;top:300px; right:5%;width:40px;_position:absolute; _margin-top:300px; z-index:9999;_top:expression(documentElement.scrollTop + "px");}
+#weixin{display:block;/*width:40px;height:42px;*/cursor:pointer;}
+/*#weixin{background:url(images/weixin.png) repeat scroll 0% 0% transparent;}*/
+#weixin:hover{background:url(weixind.png) repeat scroll 0% 0% transparent;}
+#EWM{ position:absolute; right:110px; top:-140px; display:none;}
+#EWM img{ width:160px; height:160px;}

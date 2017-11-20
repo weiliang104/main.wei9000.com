@@ -1,0 +1,4 @@
+#!/bin/sh -
+chown -R nobody:nobody ./uploads;
+chown nobody:nobody ./include/config.cache.php;
+chown nobody:nobody ./admin/rewriteurl.php;

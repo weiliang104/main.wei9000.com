@@ -1,0 +1,67 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{ padding:0; margin:0; list-style:none; border:0;}
+
+.swipe {
+  overflow: hidden;
+  visibility: hidden;
+  position: relative;
+  width:100%;
+  height:auto;
+}
+.swipe img{ width:100%; height:100%;}
+.swipe-wrap {
+  overflow: hidden;
+  position: relative;
+}
+.swipe-wrap > div {
+  float:left;
+  width:100%;
+  position: relative;
+}
+
+
+.ui-content{ padding:0;}
+
+#mySwipe ul{ position:absolute; bottom:0; width:100%; z-index:999}
+.swipe ul li{ width:25%; height:5px; background:rgba(0,0,0,0.5); float:left;}
+.swipe ul li.current{ background:orange;}
+
+.list{ padding:10px; box-sizing:border-box; max-width:500px; margin:auto; overflow:hidden;}
+.list li{ float:left; /*background:pink;*/margin-bottom:5px; box-sizing:border-box; position:relative; background-position:center center; background-repeat:no-repeat;}
+
+.list li h2{ float:left; margin-left:10px;}
+.list a{font-weight:100; color:#fff; font-family:'微软雅黑','宋体'; text-decoration:none; font-size:14px; line-height:15px; text-shadow:none;}
+
+.list a:hover{ color:#fff;}
+.list li.li01{ width:40%; height:80px;}
+.list li.li02{ width:30%; height:80px; padding-left:5px; background-clip:content-box;}
+.list li.li03{ width:30%; height:80px; padding-left:5px; background-clip:content-box;}
+
+.list li:nth-child(3)~li{ height:112px;}
+.list li:nth-child(6)~li{ height:117px;}
+
+.list .up{ height:56px; margin-bottom:5px; background:#84d018;}
+.list .down{ height:56px; background:#22ac38;}
+.last{ text-align:center; font-size:12px; line-height:25px;}
+.last span{ padding:0 18px;}
+.last span:last-child{ color:#666;}
+
+.nav4 li>a.on + dl{
+  display: block;
+}
+.nav4 dl{
+  display:none;
+  position:absolute;
+  bottom: 100%;
+
+}
+
+
+
+
+
+
+
+

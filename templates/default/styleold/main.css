@@ -1,0 +1,84 @@
+/* CSS Document */
+/*info*/
+.main .info{ height:auto; width:950px ; margin:auto; overflow:hidden;}
+.main .info .info_top{ width:950px; height:50px; margin:40px auto; font-size:30px; border-bottom:2px dashed #072e46; background:url(../images/web_03.png) no-repeat 280px 10px; }
+.main .info .jiantou{ width:1.7%; height:25px; background:url(../images/info_18.png); float:left; margin-top:40px;}
+.main .info ul{float:left; width:23%; text-align:center;}
+.main .info ul .itop_tle{font-size:18px; margin-bottom:40px;}
+.main .info ul .itop_tle img{ margin-bottom:10px;}
+.main .info ul li{ margin-bottom:30px;}
+.main .info ul li .smtle{font-size:16px; margin-bottom:22px; height:23px; line-height:23px;}
+.main .info ul li .st_one{background:url(../images/info_26.png) no-repeat 40px;}
+.main .info ul li .st_two{background:url(../images/info_29.png) no-repeat 35px;}
+.main .info ul li .st_thr{background:url(../images/info_33.png) no-repeat 35px;}
+.main .info ul li .sm4{background:url(../images/info_26.png) no-repeat 0px; text-indent:12px;}
+.main .info ul li .content{font-size:13px;}
+/*help*/
+.main .help_d{ width:950px; margin:auto; height:600px; position:relative; overflow:hidden; }
+.main .help_d .h_ttle{ font-size:30px; margin-top:38px;  background:url(../images/web_03.png) no-repeat 310px 10px;}
+.main .help_d .h_ttle .h_sminfo{ font-size:13px; width:480px; margin-top:10px;}
+.main .help_d ul{width:90px; height:auto; position:absolute; top:200px; }
+.main .help_d ul li{width:100%; height:35px; line-height:25px; text-indent:2.5em; margin-bottom:30px;}
+.main .help_d .hebox {top:240px; }
+.main .help_d .hebox li{ height:3px;  margin-bottom:60px; overflow:hidden;}
+.main .help_d .hebox li.show{display:block; }
+.main .help_d .h_img{left:470px; top:150px;}
+.main .help_d .h_img li{position:absolute; display:none;}
+.main .help_d .h_img li.show{display:block;}
+.main .help_d .hct_box{position:absolute; top:320px; left:150px;}
+.main .help_d .hct_box .ct{position:absolute; display:none;}
+.main .help_d .hct_box .show{display:block;}
+.main .help_d .hct_box .ct .xtle{font-size:30px; margin-bottom:28px; text-indent:15px;}
+.main .help_d .hct_box .ct .sct{width:325px; font-size:14px;}
+.main .help_d .hct_box .ct .shu{width:8px; height:70px; position:absolute; left:0px;}
+.main .help_d .bgboxnav .bgone{background:url(../images/helpnav_07.jpg) no-repeat;}
+.main .help_d .bgboxnav .bgtwo{background:url(../images/helpnav_10.jpg) no-repeat;}
+.main .help_d .bgboxnav .bgthr{background:url(../images/helpnav_12.jpg) no-repeat;}
+.main .help_d .bgboxnav .bgfox{background:url(../images/helpnav_14.jpg) no-repeat;}
+.main .help_d .bgboxnav li .smeng{ font-size:8px; margin-top:-12px; _text-indent:40px;}
+.main .help_d .sa{ background:#f77d2b;}
+.main .help_d .sb{ background:#5ca301;}
+.main .help_d .sc{ background:#3eb982;}
+.main .help_d .sd{ background:#0059b8;}
+.main .help_d .a{color:#f77d2b;}
+.main .help_d .b{color:#5ca301;}
+.main .help_d .c{color:#3eb982;}
+.main .help_d .d{color:#0059b8;}
+/*mod*/
+.main .mod{width:950px; margin:auto;}
+.main .mod .mod_top{font-size:30px; height:50px; margin-top:38px;  background:url(../images/web_03.png) no-repeat 340px 10px;border-bottom:2px dashed #072e46;}
+.main .mod ul{width:100%; margin:auto; overflow:hidden; }
+.main .mod ul li{width:18%; height:150px;text-align:center; float:left; margin:30px 4px 18px 5px; position:relative;}
+.main .mod ul li a{display:block;width:100%; height:100%;}
+.main .mod ul li a img{position:absolute;bottom:80px;left:26%;}
+.main .mod ul li a .sm_mod{text-align:center; width:100%;position:absolute; bottom:20px; left:0px;}
+.main .mod ul li a .sm_mod .mod_tle{ font-size:16px;}
+.main .mod ul li a .sm_mod .mod_ct{font-size:12px; width:100%; margin-top:12px;}
+.main .mod ul .modshu{ background:url(../images/modshu_03.jpg) no-repeat; width:1px; height:150px; float:left;}
+.main .mod ul .modheng{background:url(../images/modhend_05.jpg) no-repeat 50px; width:900px; height:2px; float:left; margin:0px;}
+
+
+/*about-->index*/
+.main .about_success{width:100%; overflow:hidden;}
+.main .about_success .about_imgbox{width:100%;margin-top:20px; height:160px;}
+.main .about_success .about_imgbox li{float:left; margin:0 15px;}
+.main .about_success .about_sel{width:100%; height:13px; background:#EEE; position:relative;}
+.main .about_success .about_sel div{position:absolute; top:0px; left:70px; _margin-left:15px; width:38px; height:100%; background:url(../images/about_01.png) no-repeat;}
+.main .about_success .about_ctnbox{background:url(../images/about_bg.jpg); height:380px; position:relative;_height:315px;
+filter:"progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod='scale')";   -moz-background-size:100%;   background-size:100%; }
+.main .about_success .about_ctnbox li{width:100%; height:100%; position:absolute; top:0px; left:0px; display:none;}
+.main .about_success .about_ctnbox li.show{display:block;}
+.main .about_success .about_ctnbox li .about_width{width:580px; position:absolute; top:15px; left:50px;}
+.main .about_success .about_ctnbox li .about_width div{margin-top:10px;}
+.main .about_success .about_ctnbox li .about_width div .tle{color:#165eb7; font-weight:700;}
+.main .about_success .about_ctnbox li .about_width div .ctn{color:#fff; font-family: "黑体"; font-size:15px; text-indent:2em;}
+.main .about_success .about_ctnbox li .twowm{width:140px; height:195px; position:absolute; top:50px; right:120px;}
+.main .about_success .about_ctnbox li .twowm .twowm_txt{font-size:12px;}
+.main .about_success .about_ctnbox li .twowm .twowm_txt a{margin-left:12px;}
+.main .about_success .about_cross{width:1050px;height:160px;overflow:hidden;margin:auto;background:rgba(255,255,255,0.2);}
+.main .about_success .about_cross ul li{width:160px;height:140px;overflow:hidden; position:relative; float:left;margin:10px 0 0 10px;}
+.main .about_success .about_cross ul li a{width:100%;height:100%;display:block;color:#fff; }
+.main .about_success .about_cross ul li img{width:160px; height:140px;}
+.main .about_success .about_cross ul li p{width:160px;height:30px;line-height:30px;background:rgba(0,0,0,.4);position:absolute;bottom:-30px;transition:all .5s;padding-left: 10px;font-size: 14px;}
+.main .about_success .about_cross ul li:hover p{	bottom:0;}
+.main .about_success .about_cross ul li:hover img{transform:scale(1.1);}

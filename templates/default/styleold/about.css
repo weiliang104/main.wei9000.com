@@ -1,0 +1,14 @@
+/* CSS Document */
+/*about_success*/
+.main .banner{height:328px;}
+/*about_us*/
+.main .about_us ul li .abus_tle{width:180px; height:53px; background:url(../images/about_03.jpg) no-repeat; color:#fff; line-height:50px; text-align:center; margin:20px 0 5px 0;}
+.main .about_us ul li .abus_ctn{text-indent:2em; line-height:30px;}
+.main .about_us .abus_bomct{background:#f2fedf; width:1010px; height:auto; text-indent:2em; padding:20px; line-height:30px; margin:10px 0 10px;}
+/*contact_us*/
+.main .contact_us{position:relative; height:700px;}
+.main .contact_us ul{width:300px; position:absolute; right:0px;}
+.main .contact_us ul li{ height:30px; line-height:30px;}
+#allmap {width:700px;height:400px;overflow:hidden; position:absolute; bottom:10px; left:0px;}
+#l-map{height:100%;width:78%;float:left;border-right:2px solid #bcbcbc;}
+#r-result{height:100%;width:20%;float:left;}

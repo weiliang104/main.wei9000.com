@@ -1,0 +1,1 @@
+INSERT INTO `pmw_infosrc` VALUES('1','微信营销','www.wei9000.com','1');

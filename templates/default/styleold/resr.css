@@ -1,0 +1,12 @@
+/* CSS Document */
+.main .banner{height:281px;}
+.main .mcchannel,.main .microblog,.main .friend{font-size:30px; text-align:center; margin-top:20px;}
+.mcc_ranking ul,.mcb_ranking ul,.main .friend ul{width:auto; height:100%; border:1px solid #000; font-size:12px; float:left;}
+.mcc_ranking ul,.mcb_ranking ul,.main .friend ul{margin-left:-1px;}
+/*mcchannel*/
+.main .mcchannel .mcc_ranking{height:545px; padding:10px 0 10px 60px;}
+/*friend*/
+.main .friend .frd_ranking{background-color:#FFFFFF;height:510px; padding:10px 0 10px 80px;}
+/*microblog*/
+.main .microblog .mcb_ranking{height:510px; padding:10px 0 10px 80px;}
+.main .ifphone{ font-size:24px; color:#d43231; width:980px; margin:auto; padding:10px;}
